@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/Chatterino/chatterino2/master/docs/plugin-info.schema.json",
-  "name": "YouTube test plugin",
+  "name": "Crashing beer test plugin",
   "description": "This plugin crashes your Chatterino.",
   "authors": [
     "kararty"
   ],
-  "homepage": "https://github.com/Chatterino/Chatterino2",
+  "homepage": "https://github.com/Remahy/Chatterino-Plugins/tree/main/crash-poc",
   "tags": [
     "test"
   ],
