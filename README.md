@@ -1,1 +1,3 @@
 # Chatterino-Plugins
+
+- [yt-chat](/yt-chat/) - Read YouTube livestream chats, inside your Chatterino!
