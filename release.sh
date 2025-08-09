@@ -25,7 +25,6 @@ for file in dist/*.zip; do
 
     if [ -z "$upload_url" ]; then
       echo "Failed to create release for tag $tag"
-      echo "$release_response"
       exit 1
     fi
 
@@ -38,8 +37,7 @@ for file in dist/*.zip; do
 
   else
     echo "Release with tag '$tag' already exists. Failing the job."
-    echo "$release_check"
-    exit 1
+    continue
   fi
 
 done
