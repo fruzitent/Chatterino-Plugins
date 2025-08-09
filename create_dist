@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir -p dist
+for i in */; do
+    [ "$i" = "dist/" ] || git ls-files --cached --others --exclude-standard "$i" | zip "dist/${i%/}.zip" -@
+done
