@@ -15,5 +15,7 @@ for i in */; do
     exit 1
   fi
 
+  version="${version//./_}"
+
   git ls-files --cached --others --exclude-standard "$i" | zip "dist/${i%/}_v${version}.zip" -@
 done
