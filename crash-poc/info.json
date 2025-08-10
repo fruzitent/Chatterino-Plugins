@@ -2,14 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/Chatterino/chatterino2/master/docs/plugin-info.schema.json",
   "name": "Crashing beer test plugin",
   "description": "This plugin crashes your Chatterino.",
-  "authors": [
-    "kararty"
-  ],
+  "authors": ["kararty"],
   "homepage": "https://github.com/Remahy/Chatterino-Plugins/tree/main/crash-poc",
-  "tags": [
-    "test"
-  ],
-  "version": "0.0.0",
+  "tags": ["test"],
+  "version": "0.0.1",
   "license": "MIT",
   "permissions": [
     {
